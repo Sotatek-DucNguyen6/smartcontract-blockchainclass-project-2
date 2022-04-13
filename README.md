@@ -10,6 +10,21 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+node scripts/deploy.js --network rinkeby
 npx hardhat help
 ```
+### Deploying contracts with the account: 
+
+0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+
+### Account balance: 
+
+9999996160793125000000
+
+### Token address: 
+
+0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+### Another Class Project:
+
+https://github.com/ducnguyenedu/smartcontract-blockchainclass-project-1
