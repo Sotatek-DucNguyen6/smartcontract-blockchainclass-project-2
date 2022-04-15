@@ -1,12 +1,15 @@
 require("@nomiclabs/hardhat-waffle");
-
+require('dotenv').config();
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
+const accountsList = [];
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
-
+  const i = 0;
   for (const account of accounts) {
+    accountsList[i] = account.address + "";
     console.log(account.address);
+    i++;
   }
 });
 
@@ -18,6 +21,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 require("@nomiclabs/hardhat-waffle");
 
+
+
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
 
@@ -26,16 +31,20 @@ require("@nomiclabs/hardhat-waffle");
 // To export your private key from Metamask, open Metamask and
 // go to Account Details > Export Private Key
 // Be aware of NEVER putting real Ether into testing accounts
+const API_KEY = process.env.API_KEY;
 
+// Replace this private key with your Ropsten account private key
+// To export your private key from Metamask, open Metamask and
+// go to Account Details > Export Private Key
+// Be aware of NEVER putting real Ether into testing accounts
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.13",
   networks: {
     rinkeby: {
-      url: "https://rinkeby.infura.io/v3/84581d9718b245a7980d0e379d4a3214", 
-      accounts: [
-        "cc2f844beb67482cd07fa8040c8dada8e2ee2922740ad7bb3d7d0311e71ef59e",
-      ], 
+      url: 'https://rinkeby.infura.io/v3/'+API_KEY,
+      accounts: [PRIVATE_KEY]
     },
   }
 };

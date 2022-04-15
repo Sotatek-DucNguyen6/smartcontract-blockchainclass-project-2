@@ -1,5 +1,6 @@
 node_modules
 bin
+note.txt
 
 node_modules
 .env

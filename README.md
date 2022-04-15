@@ -1,4 +1,6 @@
-# Basic Sample Hardhat Project
+# Smartcontract-blockchainclass-project-2
+
+### Basic Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
@@ -16,15 +18,24 @@ npx hardhat help
 ### Deploying contracts with the account: 
 
 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-
 ### Account balance: 
+9999987672209096566976
 
-9999996160793125000000
+### Token blacklisting address: 
 
-### Token address: 
+0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
 
-0x5FbDB2315678afecb367f032d93F642f64180aa3
+### Token treasury address: 
+
+0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+
+### Token ERC20CoinDeploy address: 
+
+0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
 
 ### Another Class Project:
 
-https://github.com/ducnguyenedu/smartcontract-blockchainclass-project-1
+[Project 1](https://github.com/ducnguyenedu/smartcontract-blockchainclass-project-1)
+
+
+
