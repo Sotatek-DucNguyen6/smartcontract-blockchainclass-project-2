@@ -35,7 +35,9 @@ npx hardhat help
 
 ### Another Class Project:
 
-[Project 1](https://github.com/Sotatek-DucNguyen6/smartcontract-blockchainclass-project-1)
+[Project 1](https://github.com/ducnguyenedu/smartcontract-blockchainclass-project-1)
+[Project 3](https://github.com/ducnguyenedu/smartcontract-blockchainclass-project-3)
+
 
 
 
